@@ -3,8 +3,8 @@ function addBola(){
     var bola = document.createElement("div");
     bola.setAttribute("class", "bola");
 
-    var p1 = Math.floor(Math.random() * 430);
-    var p2 = Math.floor(Math.random() * 580);
+    var p1 = Math.floor(Math.random() * 400);
+    var p2 = Math.floor(Math.random() * 500);
    
     bola.setAttribute("style", "left:"+p1+"px;  top:"+p2+"px;");
     bola.setAttribute("onclick", "estourar(this)");
